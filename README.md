@@ -10,7 +10,7 @@ Hoot Placeholder logo, logo coming soon!
 *The API source code is hosted at https://github.com/hoot-coding-v2/hapi*
 
 # Description
-Hoot is a website that makes Bark programming easier, so users of any age can create and share games, animations, and everything else! &#128054;<br>
+Hoot is a website that makes Bark programming easier, so users of any age can create and share games, animations, and everything else! &#128054; 🦉<br>
 Bark has many features, including:
 - Dark mode
 - Custom stage size&ast;
