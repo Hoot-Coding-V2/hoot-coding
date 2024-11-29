@@ -2,13 +2,14 @@
 ![Static Badge](https://img.shields.io/badge/engine%20by-blockly-yellow?style=for-the-badge&logo=google&logoColor=yellow)
 ![Static Badge](https://img.shields.io/badge/server:%20-bapiv2-green?style=for-the-badge&logo=javascript&logoColor=yellow)
 ![Static Badge](https://img.shields.io/badge/latest%20release-0.1.7-green?style=for-the-badge&logo=electron&logoColor=green)
+![Static Badge](https://img.shields.io/badge/Original-AtomicBolts-blue?style=for-the-badge&logo=github&logoColor=white)
 
 <a href="https://discord.com/invite/hXmHw7H9BF">![Bark Coding Discord](https://discord.com/api/guilds/1225552735445843978/embed.png)</a>
 <br />
-*The API source code is hosted at https://github.com/dumorando/bapiv2*
+*The API source code is hosted at https://github.com/hoot-coding-v2/hapi*
 
 # Description
-Bark is a website that makes programming easy, so users of any age can create and share games, animations, and everything else! &#128054;<br>
+Hoot is a website that makes Bark programming easier, so users of any age can create and share games, animations, and everything else! &#128054;<br>
 Bark has many features, including:
 - Dark mode
 - Custom stage size&ast;
@@ -16,6 +17,7 @@ Bark has many features, including:
 - Paint editor&ast;
 - Accounts/Community
 - More features soon, Bark is still in its early stages
+And this fork has even more features coming soon!
 
 `*` = coming soon
 
@@ -26,7 +28,7 @@ Bark has many features, including:
 
 # Contribution
 Please read our <a href="https://github.com/mariocraft987/bark.github.io/blob/main/CONTRIBUTING.md">`contribution guidelines`</a> before contributing.
-To be a part of Bark's development, please go to <a href="https://bark.dumorando.com/jobs">this</a> page and follow the instructions to apply.
+To be a part of Bark's or Hoot's development, please go to <a href="https://bark.dumorando.com/jobs">this</a> page and follow the instructions to apply.
 ## Staff/Contributors
 [<img src="https://avatars.githubusercontent.com/u/154646419?v=4" alt="mariocraft" title="mariocraft" width="70" height="70" style="border-radius:100%">](https://github.com/mariocraft987)
 [<img src="https://avatars.githubusercontent.com/u/130254323?v=4" alt="nmsderp" title="nmsderp" width="70" height="70" style="border-radius:100%">](https://github.com/nmsderp)
@@ -724,4 +726,4 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 ```
 # Disclaimer
-Bark is not affiliated with Scratch, Turbowarp, nor PenguinMod. All credit for the idea goes to these founding orginizations.
+Hoot is not affiliated with Scratch, Turbowarp, nor PenguinMod. All credit for the idea goes to these founding orginizations.
