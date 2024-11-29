@@ -1,4 +1,5 @@
 Hoot Placeholder logo, logo coming soon!
+<br />
 ![Static Badge](https://img.shields.io/badge/engine%20by-blockly-yellow?style=for-the-badge&logo=google&logoColor=yellow)
 ![Static Badge](https://img.shields.io/badge/server:%20-bapiv2-green?style=for-the-badge&logo=javascript&logoColor=yellow)
 ![Static Badge](https://img.shields.io/badge/latest%20release-coming%20soon!-green?style=for-the-badge&logo=electron&logoColor=green)
