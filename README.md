@@ -4,7 +4,7 @@
 ![Static Badge](https://img.shields.io/badge/latest%20release-coming%20soon!-green?style=for-the-badge&logo=electron&logoColor=green)
 ![Static Badge](https://img.shields.io/badge/Original-AtomicBolts-blue?style=for-the-badge&logo=github&logoColor=white)
 
-<a href="https://discord.com/invite/hXmHw7H9BF">![Bark Coding Discord](https://discord.com/api/guilds/1225552735445843978/embed.png)</a>
+
 <br />
 *The API source code is hosted at https://github.com/hoot-coding-v2/hapi*
 
