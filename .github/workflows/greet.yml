@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   greet:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
         - name: :(
           uses: alex-sandri/nothing-action@v1.1
