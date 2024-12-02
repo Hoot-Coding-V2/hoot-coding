@@ -64,21 +64,58 @@
             <br/>
             <hr/>
             <h2><span style="color:red;">D</span><span style="color:rgb(255, 98, 0);">E</span><span style="color:rgb(255, 196, 0);">V </span><span style="color:rgb(208, 255, 0);">M</span><span style="color:rgb(0, 255, 21);">O</span><span style="color:rgb(0, 251, 255);">D</span><span style="color:rgb(0, 119, 255);">E</span></h2>
-                <select id="devmode" onchange="devmodeset()">
-                  <option value="true">True</option>
-                  <option value="false">False</option>
-                </select>
+            <button name="devmode" id="devmode" onclick="devmodeset()">Enable/Disable Dev Mode</button>
+            <br/>
+            <span id="devmodeon">...</span>
         </section>
+
+        <div id="devmodeSettings" style="width: 100%; margin: auto;">
+            <div id="warning" priority="2">
+                <h2>Double Warning</h2>
+                <p class="warningdevmode">These settings are a work in progress.</p>
+                <p>Custom Extension loader</p>
+                <p>Custom Theme loader</p>
+            </div>
+
+            <section id="settingsPage">
+                <h2>SECRET SETTINGS</h2>
+            </section>
+        </div>
+
     </main>
     <br/>
+
 </body>
 <script src="/index.js"></script>
 <script src="/src/scripts/multi-language.js"></script>
 <script src="/src/scripts/replacer.js"></script>
-<script src="/settings/settings.js"></script>
+<script src="/settings/settings.js" defer></script>
 <!-- for ANYONE that knows -->
 <script src="/src/scripts/konami.js"></script>
 <script>
+
+if (localStorage.devmode == "true") {
+    document.getElementById('devmodeon').innerHTML = "Dev Mode on!";
+} else {
+    document.getElementById('devmodeon').innerHTML = "Dev Mode off!";
+}
+
+document.getElementById("devmode").addEventListener("click", devmodeset);
+
+function devmodeset() {
+    if (localStorage.devmode == "false") {
+        localStorage.devmode = "true";
+        document.getElementById('devmodeon').innerHTML = "Dev Mode on!";
+    } else {
+        localStorage.devmode = "false";
+        document.getElementById('devmodeon').innerHTML = "Dev Mode Off!";
+    }
+}
+
+    // if devmode false, kill devmodesettings
+    if (localStorage.devmode == "false") {
+        document.getElementById("devmodeSettings").remove();
+    }
 
     let span = document.getElementById("forthischangelang");
     let spanslang = navigator.language

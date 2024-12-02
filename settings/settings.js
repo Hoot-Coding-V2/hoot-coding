@@ -1,17 +1,3 @@
-if (document.getElementById("devmode").value == "true") {
-    document.getElementById('devmode').selectedIndex = 1;
-} else {
-    document.getElementById('devmode').selectedIndex = 0;
-}
-
-function devmodeset() {
-if (document.getElementById("devmode").value == "true") {
-    localStorage.devmode = true;
-} else {
-    localStorage.devmode = false;
-}
-}
-
 function checkDarkModeSelect() {
     let darkModeValue = document.getElementById("dark-mode-setting-edit").value
     
@@ -72,8 +58,12 @@ btns.forEach(btn => {
         }
     });
 });
-const applybtn = document.getElementById('applybtn');
-applybtn.addEventListener('click', () => {
+
+function setTheme() {
     localStorage.setItem('theme', pendingTheme);
     window.location.reload();
-});
+}
+
+if (!document.getElementById('applybtn') == null) {
+    document.getElementById('applybtn').addEventListener('click', setTheme);
+}
